@@ -1,4 +1,4 @@
-package com.gensokyo.toyhome;
+package org.hiedacamellia.toyhome;
 
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.Minecraft;
