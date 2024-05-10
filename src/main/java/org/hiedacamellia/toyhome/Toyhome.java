@@ -27,7 +27,12 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
+import org.hiedacamellia.toyhome.register.AutoRegistryObject;
+import org.hiedacamellia.toyhome.register.Utils;
 import org.slf4j.Logger;
+
+import java.util.ArrayList;
+import java.util.List;
 
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod(Toyhome.MODID)
@@ -61,11 +66,17 @@ public class Toyhome {
             output.accept(EXAMPLE_ITEM.get()); // Add the example item to the tab. For your own tabs, this method is preferred over the event
             }).build());
 
+    public static List<AutoRegistryObject<Block>> RegisteredBlocks = new ArrayList<>();
+    public static List<AutoRegistryObject<Item>> RegisteredItems = new ArrayList<>();
+
     public Toyhome() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
+
+        RegisteredBlocks.addAll(Utils.registryModule(org.hiedacamellia.toyhome.world.block.Blocks.class, BLOCKS));
+        RegisteredItems.addAll(Utils.registryModule(org.hiedacamellia.toyhome.world.item.Items.class, ITEMS));
 
         // Register the Deferred Register to the mod event bus so blocks get registered
         BLOCKS.register(modEventBus);
