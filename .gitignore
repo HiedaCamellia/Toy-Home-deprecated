@@ -1,3 +1,7 @@
+/src/generated
+
+/run-data
+
 # User-specific stuff
 .idea/
 
