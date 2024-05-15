@@ -1,0 +1,14 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "toy_home:item/paper_roll_whistle"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "toy_home:whistling": 1
+      },
+      "model": "toy_home:item/paper_roll_whistle_in_use"
+    }
+  ]
+}

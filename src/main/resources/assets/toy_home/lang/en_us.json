@@ -1,0 +1,24 @@
+{
+  "creative_mode_tab.toy_home.main": "Toy Home",
+
+  "item.toy_home.paper_roll_whistle": "Paper Roll Whistle",
+  "item.toy_home.sticky_hand": "Sticky Hand",
+  "item.toy_home.toy_gun": "Toy Gun",
+  "item.toy_home.sponge_bob": "Sponge Bob",
+  "item.toy_home.slip": "slip",
+  "item.toy_home.slip_written": "Written Slip",
+  "item.toy_home.baseball_bat": "Baseball Bat",
+  "item.toy_home.fortune_cookie": "Fortune Cookie",
+
+  "block.toy_home.blavingad_toy": "Blavingad Toy",
+  "block.toy_home.panda_toy": "Panda Toy",
+  "block.toy_home.polar_bear_toy": "Polar Bear Toy",
+  "block.toy_home.teddy_bear_toy": "Teddy Bear Toy",
+
+  "entity.toy_home.sticky_hand": "Sticky Hand",
+  "entity.toy_home.sponge_bob": "Sponge Bob",
+
+  "message.toy_home.slip_empty": "Content cannot be empty.",
+  "message.toy_home.custom_cookie": "Has inlaid slip.",
+  "message.toy_home.random_cookie": "Has inlaid random slip."
+}

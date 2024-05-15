@@ -1,0 +1,24 @@
+{
+  "creative_mode_tab.toy_home.main": "玩具之家",
+
+  "item.toy_home.paper_roll_whistle": "卷纸哨",
+  "item.toy_home.sticky_hand": "黏黏手",
+  "item.toy_home.toy_gun": "玩具枪",
+  "item.toy_home.sponge_bob": "海绵弹",
+  "item.toy_home.slip": "纸条",
+  "item.toy_home.slip_written": "写上字的纸条",
+  "item.toy_home.baseball_bat": "棒球棒",
+  "item.toy_home.fortune_cookie": "幸运饼干",
+
+  "block.toy_home.blavingad_toy": "Blavingad Toy",
+  "block.toy_home.panda_toy": "熊猫玩偶",
+  "block.toy_home.polar_bear_toy": "北极熊玩偶",
+  "block.toy_home.teddy_bear_toy": "泰迪熊玩偶",
+
+  "entity.toy_home.sticky_hand": "黏黏手",
+  "entity.toy_home.sponge_bob": "海绵弹",
+
+  "message.toy_home.slip_empty": "内容不能为空。",
+  "message.toy_home.custom_cookie": "已镶嵌纸条。",
+  "message.toy_home.random_cookie": "已镶嵌随机纸条。"
+}

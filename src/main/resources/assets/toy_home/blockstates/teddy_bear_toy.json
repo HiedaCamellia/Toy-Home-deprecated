@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "toy_home:block/teddy_bear_toy" },
+    "facing=south": { "model": "toy_home:block/teddy_bear_toy", "y": 180 },
+    "facing=east": { "model": "toy_home:block/teddy_bear_toy", "y": 90 },
+    "facing=west": { "model": "toy_home:block/teddy_bear_toy", "y": 270 }
+  }
+}
